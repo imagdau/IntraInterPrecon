@@ -1,0 +1,13 @@
+name: preconditioning
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip=21.2.4
+  - pip:
+    - quippy-ase==0.9.14
+    - git+https://github.com/imagdau/aseMolec.git@5aba8306655a4a028f5b1c977a2e6f48236c0c03
+    - nglview==3.1.2
+    - pandas==2.2.1
+    - plotly==5.20.0
+    - tqdm==4.66.2
